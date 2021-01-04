@@ -1,0 +1,115 @@
+/*Generales*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#body{
+    background-color: rgb(247, 244, 241);
+    font-family: Arial, Helvetica;/*Verdana, Geneva, Tahoma, sans-serif;*/
+    background: url('../images/double-bubble-dark.png');
+    background-image: '../images/double-bubble-dark.png';
+    /* //TODO: por algun motivo el background image no funciona, descubrir por que */
+    background-attachment: fixed;
+}
+
+.clearfix{
+    clear:both;
+    float:none;
+}
+
+/*Header styles*/
+
+#header{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    background-color: rgb(119, 165, 165);
+    /* position: fixed; */
+    /* Mine
+    text-align: center; */
+}
+
+#navBar{
+    /* display: flex; */
+    width: 40%;
+    height: inherit;
+    margin: 0px auto;
+    /* align-content: center; */
+    text-align: center;
+    /* vertical-align: middle; */
+}
+
+#navBar li{
+    display: inline-block;
+    margin-top: 5px auto;
+    border: 25px;
+    text-align: center;
+    line-height: 50px;
+    list-style-type:none;
+    vertical-align: middle;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-style: oblique bold;
+    font-weight: bold; */
+}
+
+#navBar li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: inherit;
+    text-decoration: none;
+    color: white;
+    border-radius: 25%;
+    transition: all 400ms;
+}
+#navBar li a:hover{
+    background-color: rgba(25, 68, 68, 0.8);
+    border-radius: 50%;
+}
+
+#logoEloi {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+#logoEloi :hover{
+    background: transparent;
+}
+
+/*Contenedor principal*/
+
+
+#content{
+    width: 75%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 40px black;
+    background: rgba(255, 255, 255, 0.7);
+    padding-top: 100px;  
+    margin-bottom: 25px;  
+    margin-top: 25px;
+    min-height: 750px;
+    border-left: 2px solid #b7b7b7;
+    border-right: 2px solid #b7b7b7;
+}
+
+/* Pie de pagina */
+
+#footer{
+    background: #f7f7f7;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+    bottom: 0;
+    position: relative;
+}
+
+
