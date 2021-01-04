@@ -12,15 +12,11 @@
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import About from "./components/About.vue";
 export default {
   name: "App",
   components: {
     HeaderComponent,
-    FooterComponent,
-    About
-    // HelloWorld,
-    // CustomError,
+    FooterComponent
   },
 };
 </script>
