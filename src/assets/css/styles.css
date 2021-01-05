@@ -34,7 +34,7 @@ body{
 
 #navBar{
     /* display: flex; */
-    width: 40%;
+    width: 45%;
     height: inherit;
     margin: 0px auto;
     /* align-content: center; */
@@ -97,7 +97,7 @@ body{
     margin-top: 25px;
     border-left: 2px solid #b7b7b7;
     border-right: 2px solid #b7b7b7;
-    /* min-height: 90%; */
+    min-height: 75%;
 }
 
 
