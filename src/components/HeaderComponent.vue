@@ -4,7 +4,7 @@
     <ul id="navBar">
       <li><a src="/underConstruction">Home</a></li>
       <li><a src="/underConstruction">Contact</a></li>
-      <li><img src="../assets/logoLosami.jpg" alt="logoEloi" id="logoEloi" height="75"/></li>
+      <li><img src="../assets/images/logoLosami.jpg" alt="logoEloi" id="logoEloi" height="75"/></li>
       <li><a src="/underConstruction">Projects</a></li>
       <li><a src="/underConstruction">More</a></li>
     </ul>
