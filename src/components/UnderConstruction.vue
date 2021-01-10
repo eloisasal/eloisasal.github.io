@@ -1,11 +1,5 @@
 <template>
-  <div class="underConstructionComponent">
-    <img
-      alt="under construction image"
-      id="underContructionImg"
-      src="../assets/images/underConstruction.jpg"
-    />
-  </div>
+  <div class="underConstruction" />
 </template>
 
 <script>

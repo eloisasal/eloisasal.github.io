@@ -45,32 +45,22 @@ body{
 #navBar li{
     display: inline-block;
     margin-top: 5px auto;
-    border: 25px;
-    text-align: center;
-    line-height: 50px;
-    list-style-type:none;
-    vertical-align: middle;
-    /* margin-left: 20px;
-    margin-right: 20px;
-    vertical-align: middle;
-    font-size: 20px;
-    font-style: oblique bold;
-    font-weight: bold; */
-}
-
-#navBar li a {
-    display: block;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 25px;
+    border-radius: 25%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    list-style-type:none;
     height: inherit;
     text-decoration: none;
     color: white;
-    border-radius: 25%;
     transition: all 400ms;
 }
-#navBar li a:hover{
+#navBar li:hover{
     background-color: rgba(25, 68, 68, 0.8);
     border-radius: 50%;
 }
@@ -111,6 +101,15 @@ body{
     margin-right: 15%;
     /* margin-top: 5%; */
     margin-bottom: 4%;
+}
+
+.underConstruction{
+    background-image: url("../images/underConstruction.jpg");
+    background-repeat: no-repeat;
+    height: 50px;
+    min-height: 575px;
+    background-position: top center;
+    border-top: 0px;
 }
 
 

@@ -1,20 +1,47 @@
 <template>
   <div id="header">
-    <div class="clearfix">  </div>
+    <div class="clearfix"></div>
     <ul id="navBar">
-      <li><a src="/underConstruction">Home</a></li>
-      <li><a src="/underConstruction">Contact</a></li>
-      <li><a src="/About"> <img src="../assets/images/logoLosami.jpg" alt="logoEloi" id="logoEloi" height="75"/></a></li>
-      <li><a src="/underConstruction">Projects</a></li>
-      <li><a src="/underConstruction">More</a></li>
-    </ul>
+      <li @click="redirectHome()">Home</li>
+      <li @click="redirectContact()">Contact</li>
+      <li @click="redirectAbout()">
+        <div id="containerLogo">
+          
+          <img
+            src="../assets/images/logoLosami.jpg"
+            alt="logoEloi"
+            id="logoEloi"
+            height="75"
+          />
 
+        </div>
+      </li>
+      <li @click="redirectProjects()">Projects</li>
+      <li @click="redirectMore()">More</li>
+    </ul>
   </div>
 </template>
 
 
 <script>
 export default {
-  name: "HeaderComponent"
+  name: "HeaderComponent",
+  methods: {
+    redirectHome() {
+      this.$router.push("/");
+    },
+    redirectContact() {
+      this.$router.push("/Contact");
+    },
+    redirectAbout() {
+      this.$router.push("/About");
+    },
+    redirectProjects() {
+      this.$router.push("/Projects");
+    },
+    redirectMore() {
+      this.$router.push("/More");
+    },
+  },
 };
 </script>
